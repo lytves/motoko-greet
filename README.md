@@ -6,3 +6,6 @@ First Project for participate in the Motoko Bootcamp: Enroll NOW to start your W
 
 ![image](https://user-images.githubusercontent.com/22356770/212420235-6eb110a7-177c-4be6-82fc-207b7e150ea8.png)
 
+### Call the canister:
+
+$ dfx canister --network ic call first_canister greet '(" world")'
